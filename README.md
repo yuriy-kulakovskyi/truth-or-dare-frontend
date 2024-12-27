@@ -14,7 +14,6 @@ This repository contains the frontend implementation of the **Truth Or Dare** ga
 - **React**: Component-based UI development.
 - **TypeScript**: Ensures type safety and enhanced code quality.
 - **Tailwind CSS**: Efficient and customizable styling.
-- **Vite**: Fast development and optimized builds.
 
 ## Getting Started
 
