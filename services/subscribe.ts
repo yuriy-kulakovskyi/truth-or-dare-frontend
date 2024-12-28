@@ -7,7 +7,7 @@ export const subscribe = async (subscriber: ISubscribe) => {
   });
 
   const channel = pusher.subscribe('my-channel');
-  channel.bind(subscriber.roomId, (data: any) => {
+  channel.bind(subscriber.roomId, (data: {message: string}) => {
     subscriber.setMessage(data.message);
   });
 
